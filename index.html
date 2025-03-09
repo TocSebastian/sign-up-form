@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image_left">
+            <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="Background Image">
+            <img src="images/odin-lined.png" alt="Odin Logo">
+        </div>
+        <div class="form_right">
+            <h1>This is the site, so you need to register!<br>Sign up!</h1>
+
+            <form action="#" method="post">
+
+                <div class="input_container">
+                    <h2>Let's do this!</h2>
+                    
+                    <div class="full_name">
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" name="phone" minlength="10">
+                        </div>
+                    </div>
+
+                    <div class="password_container">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="password_confirm">Password Confirm</label>
+                            <input type="password" id="password_confirm" name="password_confirm">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit_container">
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="account_log_in_container">
+                    <p>Already have an account?</p>
+                    <p id="log_in_id">Log in!</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
